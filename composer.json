@@ -1,0 +1,29 @@
+{
+  "name": "soless/yii2-amp-helpers",
+
+  "type": "yii2-extension",
+
+  "description": "AMP assets and helpers for yii2",
+  "keywords": ["yii2", "amp", "asset" ],
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/SoleSS/yii2-amp-helpers"
+  },
+  "authors": [
+    {
+      "name": "Michael Nordheimer",
+      "email": "soless@info-tech.pro"
+    }
+  ],
+
+  "require": {
+    "php": ">=7.2.0",
+    "yiisoft/yii2": "~2.0.14"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "soless\\amp\\": ""
+    }
+  }
+}
